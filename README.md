@@ -12,7 +12,7 @@ The websocket plugin is used to push the IJF scoreboard dat to the OBS server vi
 
 Current latest stable version of the obs-websocket plugin (version 4.9.1 at the time of writing) can be found here: https://github.com/obsproject/obs-websocket/releases/tag/4.9.1
 ### Windows installation:
-Download the '..Windows-installer.exe' or '..Windows.zip' filr from the Asset section at the bottom of the Github page. Then:
+Download the '..Windows-installer.exe' or '..Windows.zip' file from the Asset section at the bottom of the Github page. Then:
 - Using the installer (recommended, works only with combined 32/64-bit installations) : download it, launch it and follow the instructions.
 - Using the obs-websocket-4.9.1-Windows.zip archive : copy the contents of the archive to the root of your OBS Studio installation folder (either C:\Program Files\obs-studio or C:\Program Files (x86)\obs-studio).
 
