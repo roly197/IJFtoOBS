@@ -1,6 +1,8 @@
 # IJFtoOBS
 Application API to connect IJF Judo scoreboard UDP stream to OBS server websockets
 
+![alt text](https://github.com/roly197/IJFtoOBS/blob/main/images/IJF2OBS.jpg)
+
 ## OBS installation
 If no tinstalled already; Install the latest version of OBS server (version 27.1.3 at the time of writing) from here: https://obsproject.com/
 ### Windows installation
