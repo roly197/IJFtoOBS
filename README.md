@@ -34,8 +34,11 @@ Now that Python is set up you can download/install the IJF2OBS interface softwar
 To configure the IJF2OBS software, select your favourite editor (can be Notepad) open the **ijfSBtoOBS.py* file in the installation directory and make the appropriate changes t the variables in the '''Setup variables''' section at the top of te file. 
 
 ###Starting the IJF2OBS software
-To start the IJF2OBS inerface software simply click the **ijfSBtoOBS.py** file in the installation dorectory. 
+To start the IJF2OBS inerface software simply click the **ijfSBtoOBS.py** file in the installation dorectory. Leave the terminal session running in the background.
 Only one instance of the interface can run on a single machine. 
+
+##Stopping the IJF2OBS software
+In the terminal session simply type '**Crtl-Z**' and '**Enter**'
 
 ### OBS Windows installation
 If not installed already; Install the latest version of OBS server (version 27.1.3 at the time of writing) from here: https://obsproject.com/
