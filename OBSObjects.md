@@ -1,7 +1,7 @@
-|Type| SourceName| Setting |Value |Attribute | Value||
+|Type| SourceName| Setting |Value |Description|
 |:--- |:--- |:---  |:---  |:---  |:--- |:--- |
-|sourceName| SB_FlagW| sourceSettings| |file| C:\\Users\\IEUser\\Documents\\IIFtoOBS\\flags\\ned_m.jpg||
-|sourceName| SB_FlagB| sourceSettings| |file| C:\\Users\\IEUser\\Documents\\IIFtoOBS\\flags\\ned_m.jpg||
+|sourceName| SB_FlagW| sourceSettings|file: C:\\Users\\IEUser\\Documents\\IIFtoOBS\\flags\\ned_m.jpg||
+|sourceName| SB_FlagB| sourceSettings|file: C:\\Users\\IEUser\\Documents\\IIFtoOBS\\flags\\ned_m.jpg||
 |item| SB_GoldenScore| visible| True|
 |item| SB_IpponW| visible| False|
 |item| SB_IpponB| visible| True|
