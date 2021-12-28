@@ -23,4 +23,4 @@ To configure the Websocket plugin:
 - Enable Websockets server and configure the server port to 4444 (default)
 - Enable Authentication and configure the Password: judo (default)
 
-Klick 'Ok'.... dopne 
+Klick 'Ok'.... done 
