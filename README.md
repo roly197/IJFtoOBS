@@ -8,6 +8,12 @@ If no tinstalled already; Install the latest version of OBS server (version 27.1
 ### OBSWindows installation
 The Windows installation link will download the OBS Server installation package. Follow the defauly installation instructions to install on your local machine.
 
+#### Example Scene Collection
+In the folder OBS_Sources you will find example scoreboard Scene and source. 
+- Open OBS server, navigate to : 'Scene Collection' -> 'Import' 
+- In the newly opened window select the 'Collection Path' '...'  field, navigate to the fole ' ..\OBS_Sources\OPS_IJF_ScoreBoard.json' 
+- now Click Import. The scoreboard overlay will load.
+
 ### OBS websocket plugin
 OBS websocket plugin for OBS server allows remote control of your OBS instance over the network. 
 The websocket plugin is used to push the IJF scoreboard dat to the OBS server video stream to overlay the video stream.
@@ -21,8 +27,8 @@ Download the '..Windows-installer.exe' or '..Windows.zip' file from the Asset se
 #### Configure the plugin
 To configure the Websocket plugin:
 - Open OBS Server
-- Navigate to the new menu item: Tools -> WebSocket Server Settings
+- Navigate to the new menu item: 'Tools' -> 'WebSocket Server Settings'
 - Enable Websockets server and configure the server port to 4444 (default)
 - Enable Authentication and configure the Password: judo (default)
 
-Klick 'Ok'.... done 
+Click 'Ok'.... done 
