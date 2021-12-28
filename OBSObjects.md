@@ -1,4 +1,4 @@
-|Type|SourceName|Type|Setting|Value|Description|
+|Type|Source Name|OBS Source Type|Setting|Value|Description|
 |:--- |:---|:---|:---|:---|:---|
 |sourceName| SB_FlagW|Image| sourceSettings|file: C:\\Users\\IEUser\\Documents\\IIFtoOBS\\flags\\ned_m.jpg||
 |sourceName| SB_FlagB|Image| sourceSettings|file: C:\\Users\\IEUser\\Documents\\IIFtoOBS\\flags\\ned_m.jpg||
