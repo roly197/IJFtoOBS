@@ -23,12 +23,19 @@ To install this library:
 - In the command windows (open a commad terminal by typing 'cmd' in the Windows search bar) type: **pip install simpleobsws**
 - This should return: 'Successfully installed simpleobsws.0.0.x websocket-10.1' (versions can differ).
 
-## OBS Streaming server installation
+## IJF2OBS interface installation
 Now that Python is set up you can download/install the IJF2OBS interface software:
 - With your preferred browser goto: https://github.com/roly197/IJFtoOBS 
 - Now select the **Code** button and in the dropdown select **Download Zip** 
 - The software downloads to your download folder. Navigate to that folder and unzip all files to your local filesystem (e.g. C:\Program Files)
 - If you want to use te coutry flag, you can also unzip the 'flags.zip' to a directory on your harddrive. Te path to this directory needs to be configured in the **ijfSBtoOBS.py** file.
+
+###Confuguration
+To configure the IJF2OBS software, select your favourite editor (can be Notepad) open the **ijfSBtoOBS.py* file in the installation directory and make the appropriate changes t the variables in the '''Setup variables''' section at the top of te file. 
+
+###Starting the IJF2OBS software
+To start the IJF2OBS inerface software simply click the **ijfSBtoOBS.py** file in the installation dorectory. 
+Only one instance of the interface can run on a single machine. 
 
 ### OBS Windows installation
 If not installed already; Install the latest version of OBS server (version 27.1.3 at the time of writing) from here: https://obsproject.com/
