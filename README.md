@@ -17,4 +17,9 @@ Download the '..Windows-installer.exe' or '..Windows.zip' file from the Asset se
 - Using the obs-websocket-4.9.1-Windows.zip archive : copy the contents of the archive to the root of your OBS Studio installation folder (either C:\Program Files\obs-studio or C:\Program Files (x86)\obs-studio).
 
 #### Configure the plugin
-<<todo>>
+To configure the Websocket plugin:
+- Open OBS Server
+- Navigate to the new menu item: Tools -> WebSocket Server Settings
+- Enable Websockets server and configure the server port to 4444 (default)
+- Enable Authentication and configure the Password: judo (default)
+Klick 'Ok'.... dopne 
