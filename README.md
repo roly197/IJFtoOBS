@@ -54,7 +54,8 @@ Download the '..Windows-installer.exe' or '..Windows.zip' file from the Asset se
 To configure the Websocket plugin:
 - Open OBS Server
 - Navigate to the new menu item: '**Tools**' -> '**WebSocket Server Settings**'
-- Enable Websockets server and configure the server port to 4444 (default)
-- Enable Authentication and configure the Password: judo (default)
+- Enable Websockets server and configure the server port to **4444** (default)
+- Enable Authentication and configure the Password: **judo** (default)
+Other passwords and/or ports need to be configured in the **ijfSBtoOBS.py** file
 
 Click 'Ok'.... done 
