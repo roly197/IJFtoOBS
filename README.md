@@ -33,7 +33,7 @@ To check a succesful installation:
 - This will output somthing like: 'Python 3.10.x' 
 
 #### Install the SimpleOBSWS Python Libraries
-The IJF2OBS software uses the non stanbdard Python library: simpleobsws. Can be found here: https://github.com/IRLToolkit/simpleobsws
+The IJF2OBS software uses the non stanbdard Python library: simpleobsws. Can be found here: https://github.com/IRLToolkit/simpleobsws.
 To install this library: 
 - In a command windows (open a commad terminal by typing 'cmd' in the Windows search bar) type: **pip install simpleobsws**
 - This should return: 'Successfully installed simpleobsws.0.0.x websocket-10.1' (versions can differ).
