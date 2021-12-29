@@ -61,10 +61,11 @@ flagsDirectory = 'C:\\Users\\IEUser\\Documents\\IIFtoOBS\\flags\\' #Local Direct
 ```
 
 ### Starting the IJF2OBS software
-To start the IJF2OBS inerface software simply click the **ijf2obs.py** file in the installation dorectory. Leave the terminal session running in the background.
+To start the IJF2OBS inerface software simply click the **ijf2obs.py** file in the installation directory. Leave the terminal session running in the background.
 Only one instance of the interface can run on a single machine. 
 
-** After startup the following OBS sources can be used: ** Also have a look and import the example source collection in the OBS_Sources directory.
+** After startup the following OBS sources can be used: ** 
+Also have a look and import the example source collection in the OBS_Sources directory. All sources are available in this example.
 
 |Source Name|OBS Source Type|Setting|Value <<"example">>|Category|Description|
 |:---|:---|:---|:---|:---|:---|
