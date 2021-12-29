@@ -6,8 +6,8 @@
 |item| SB_IpponW|Group| visible| False||
 |item| SB_IpponB|Group| visible| True||
 |item| SB_PinTimerW|Group| visible| False||
-|item| SB_PinTimerB|Group visible| False||
-|item| SB_MatchStarted|Group visible| False||
+|item| SB_PinTimerB|Group| visible| False||
+|item| SB_MatchStarted|Group| visible| False||
 |source| SB_EventName|Text (GDI+)| text| scoreboard_testevent||
 |source| SB_Gender|Text (GDI+)| text| "Mens"||
 |source| SB_Category|Text (GDI+)| text| -73 kg||
