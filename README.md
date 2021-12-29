@@ -63,7 +63,7 @@ Only one instance of the interface can run on a single machine.
 |SB_MatchStarted|Group| visible| True/False|Generic|Group is visible if IJF scorebooard is active (not in setup mode)|
 |SB_EventName|Text (GDI+)| text| <<scoreboard_testevent>>|Generic|Text that displayes IJF event name|
 |SB_Gender|Text (GDI+)| text| <<Men's/Woman's>>|Generic|Text will discplay "Men's" or " Woman's"|
-|SB_Category|Text (GDI+)| text| <<-73..>> kg|Generic|Text will display the wight class + "kg"
+|SB_Category|Text (GDI+)| text| <<-73..>> kg|Generic|Text will display the weight class + "kg"
 |SB_MatchType|Text (GDI+)| text| <<"Quarter Final">>|Generic|Text will display match type: "Elimination..to..Final"
 |SB_Time|Text (GDI+)| text| <<0:00..9:99>>|Generic| Text will display the (remaining) match time|
 |SB_Winner|Text (GDI+)| text| <<Blue/White>>|Generic|Text will discplay the match winner:"Blue or White"| 
