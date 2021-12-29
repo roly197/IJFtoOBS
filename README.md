@@ -3,12 +3,23 @@ Application API to connect IJF Judo scoreboard UDP stream to OBS server websocke
 
 
 - [IJF2OBS installation](#IJF2OBS-installation)
-- [Python Windows installation](#Python-Windows-installation)
+  * [Python Windows installation](#Python-Windows-installation)
+    +[Install the SimpleOBSWS Python Libraries](#Install-the-SimpleOBSWS-Python-Libraries)
+  * [IJF2OBS interface installation](#IJF2OBS-interface-installation)
+    +[Confuguration](#Confuguration)
+  * [Starting the IJF2OBS software](#Starting-the-IJF2OBS-software)
+  * [Stopping the IJF2OBS software](#Stopping-the-IJF2OBS-software)
+- [OBS Windows installation](#OBS-Windows-installation)
+  * [Example Scene Collection](#Example-Scene-Collection)
+  * [OBS websocket plugin](#OBS-websocket-plugin)
+  * [OBS Websocket Windows installation:](#OBS-Websocket-Windows-installation:)
+    +[Configure the plugin](#Configure-the-plugin)
 
+  
 ![alt text](https://github.com/roly197/IJFtoOBS/blob/main/images/IJF2OBS.jpg)
 
 ## IJF2OBS installation
-The IJF2 OBS interface is build in Python for easy readability and support. Firt thing to to is download and install the Python interpreter:
+The IJF2 OBS interface is build in Python for easy readability and support. First thing to to is download and install the Python interpreter:
 
 ### Python Windows installation 
 In your preferred webbrowser navigate to the Python download link: https://www.python.org/downloads/ and download-and-run the latest Python version installer (version 3.10.1 at the time of writing).
