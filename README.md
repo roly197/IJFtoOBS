@@ -19,7 +19,7 @@ To check a succesful installation:
 - In the command terminal type '**python --version**' 
 - This will output somthing like: 'Python 3.10.x' 
 
-### Install the SimpleOBSWS Python Libraries
+#### Install the SimpleOBSWS Python Libraries
 The IJF2OBS software uses the non stanbdard Python library: simpleobsws. Can be found here: https://github.com/IRLToolkit/simpleobsws
 To install this library: 
 - In a command windows (open a commad terminal by typing 'cmd' in the Windows search bar) type: **pip install simpleobsws**
@@ -32,7 +32,7 @@ Now that Python is set up you can download/install the IJF2OBS interface softwar
 - The software downloads to your download folder. Navigate to that folder and unzip all files to your local filesystem (e.g. C:\Program Files)
 - If you want to use te country flag, you can also unzip the 'flags.zip' to a directory on your harddrive. The path to this directory needs to be configured in the **ijf2obs.py** file.
 
-### Confuguration
+#### Confuguration
 To configure the IJF2OBS software, select your favourite editor (can be Notepad) open the **ijf2obs.py* file in the installation directory and make the appropriate changes to the variables in the '''Setup variables''' section at the top of the file. 
 
 ```
