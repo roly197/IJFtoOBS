@@ -30,13 +30,26 @@ Now that Python is set up you can download/install the IJF2OBS interface softwar
 - The software downloads to your download folder. Navigate to that folder and unzip all files to your local filesystem (e.g. C:\Program Files)
 - If you want to use te country flag, you can also unzip the 'flags.zip' to a directory on your harddrive. The path to this directory needs to be configured in the **ijf2obs.py** file.
 
-####Confuguration
-To configure the IJF2OBS software, select your favourite editor (can be Notepad) open the **ijf2obs.py* file in the installation directory and make the appropriate changes to the variables in the '''Setup variables''' section at the top of te file. 
+###Confuguration
+To configure the IJF2OBS software, select your favourite editor (can be Notepad) open the **ijf2obs.py* file in the installation directory and make the appropriate changes to the variables in the '''Setup variables''' section at the top of the file. 
+
+```
+udpPort = 5000                                                     #UDP listening port for IJF SB to connect to
+udpIp = '192.168.2.3'                                              #UDP IP for IJF SB to connect to
+
+wsPort = '4444'                                                    #Websocket port to connect to OBS Server
+wsHost = '192.168.2.3'                                             #Websocket IP to connect to OBS Server
+wsPass = 'judo'                                                    #Password to connect to OBS Server
+
+defaultCountry = 'NED'                                             #Send default 3 digit country code when empty
+flagsDirectory = 'C:\\Users\\IEUser\\Documents\\IIFtoOBS\\flags\\' #Local Directory where all country flags are unzipped
+```
 
 ###Starting the IJF2OBS software
 To start the IJF2OBS inerface software simply click the **ijf2obs.py** file in the installation dorectory. Leave the terminal session running in the background.
 Only one instance of the interface can run on a single machine. 
-#### After startup the following OBS sources can be used: 
+**After startup the following OBS sources can be used: **
+
 |Type|Source Name|OBS Source Type|Setting|Value <<"example">>|Category|Description|
 |:--- |:---|:---|:---|:---|:---|:---|
 |sourceName| SB_FlagW|Image| sourceSettings|file: ..ned_m.jpg|White| Image source will be set to the 3 char country code substituted with directory and jpg filename|
@@ -69,6 +82,7 @@ Only one instance of the interface can run on a single machine.
 |item| SB_ShidoB1|Color Source| visible| True/False|Blue|Visibility of Shido as OBS color Source = first yellow card|
 |item| SB_ShidoB2|Color Source| visible| True/False|Blue|Visibility of 2nd Shido as OBS color Source = second yellow card|
 |item| SB_HansokumakeB|Color Source| visible| True/False|Blue|Visibility of 3rd Shido or Hansokumake as OBS color Source = red card (yellow cards will hide)|
+
 
 ###Stopping the IJF2OBS software
 In the terminal session simply type '**Crtl-Z**' and '**Enter**'
