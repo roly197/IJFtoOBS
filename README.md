@@ -1,4 +1,4 @@
-# IJFtoOBS
+# IJF2OBS
 Application API to connect IJF Judo scoreboard UDP stream to OBS server websockets
 
 ![alt text](https://github.com/roly197/IJFtoOBS/blob/main/images/IJF2OBS.jpg)
@@ -17,34 +17,34 @@ To check a succesful installation:
 - In the command terminal type '**python --version**' 
 - This will output somthing like: 'Python 3.10.x' 
 
-### Install the SimpleOBSWS Python Libraries
+#### Install the SimpleOBSWS Python Libraries
 The IJF2OBS software uses the non stanbdard Python library: simpleobsws. Can be found here: https://github.com/IRLToolkit/simpleobsws
 To install this library: 
 - In a command windows (open a commad terminal by typing 'cmd' in the Windows search bar) type: **pip install simpleobsws**
 - This should return: 'Successfully installed simpleobsws.0.0.x websocket-10.1' (versions can differ).
 
-## IJF2OBS interface installation
+### IJF2OBS interface installation
 Now that Python is set up you can download/install the IJF2OBS interface software:
 - With your preferred browser goto: https://github.com/roly197/IJFtoOBS 
 - Now select the **Code** button and in the dropdown select **Download Zip** 
 - The software downloads to your download folder. Navigate to that folder and unzip all files to your local filesystem (e.g. C:\Program Files)
 - If you want to use te country flag, you can also unzip the 'flags.zip' to a directory on your harddrive. The path to this directory needs to be configured in the **ijf2obs.py** file.
 
-###Confuguration
+####Confuguration
 To configure the IJF2OBS software, select your favourite editor (can be Notepad) open the **ijf2obs.py* file in the installation directory and make the appropriate changes to the variables in the '''Setup variables''' section at the top of te file. 
 
 ###Starting the IJF2OBS software
 To start the IJF2OBS inerface software simply click the **ijf2obs.py** file in the installation dorectory. Leave the terminal session running in the background.
 Only one instance of the interface can run on a single machine. 
 
-##Stopping the IJF2OBS software
+###Stopping the IJF2OBS software
 In the terminal session simply type '**Crtl-Z**' and '**Enter**'
 
-### OBS Windows installation
+## OBS Windows installation
 If not installed already; Install the latest version of OBS server (version 27.1.3 at the time of writing) from here: https://obsproject.com/
 The Windows installation link will download the OBS Server installation package. Follow the defauly installation instructions to install on your local machine.
 
-#### Example Scene Collection
+### Example Scene Collection
 In the folder OBS_Sources you will find example scoreboard Scene and source. 
 - Open OBS server, navigate to : '**Scene Collection**' -> '**Import**' 
 - In the newly opened window select the '**Collection Path**' '**...**'  field, navigate to the file '**..\OBS_Sources\OPS_IJF_ScoreBoard.json**' 
@@ -55,7 +55,7 @@ OBS websocket plugin for OBS server allows remote control of your OBS instance o
 The websocket plugin is used to push the IJF scoreboard dat to the OBS server video stream to overlay the video stream.
 
 Current latest stable version of the obs-websocket plugin (version 4.9.1 at the time of writing) can be found here: https://github.com/obsproject/obs-websocket/releases/tag/4.9.1
-### OBS Websocket Windows installation:
+#### OBS Websocket Windows installation:
 Download the '..Windows-installer.exe' or '..Windows.zip' file from the Asset section at the bottom of the Github page. Then:
 - Using the installer (recommended, works only with combined 32/64-bit installations) : download it, launch it and follow the instructions.
 - Using the obs-websocket-4.9.1-Windows.zip archive : copy the contents of the archive to the root of your OBS Studio installation folder (either C:\Program Files\obs-studio or C:\Program Files (x86)\obs-studio).
