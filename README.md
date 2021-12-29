@@ -1,7 +1,7 @@
 # IJF2OBS
 Application API to connect IJF Judo scoreboard UDP stream to OBS server websockets
 
-
+## Index
 - [IJF2OBS installation](#IJF2OBS-installation)
   * [Python Windows installation](#Python-Windows-installation)
     + [Install the SimpleOBSWS Python Libraries](#Install-the-SimpleOBSWS-Python-Libraries)
@@ -15,7 +15,7 @@ Application API to connect IJF Judo scoreboard UDP stream to OBS server websocke
   * [OBS Websocket Windows installation](#OBS-Websocket-Windows-installation)
     + [Configure the plugin](#Configure-the-plugin)
 
-  
+## Overview image
 ![alt text](https://github.com/roly197/IJFtoOBS/blob/main/images/IJF2OBS.jpg)
 
 ## IJF2OBS installation
