@@ -1,7 +1,7 @@
 |Type|Source Name|OBS Source Type|Setting|Value|Category|Description|
 |:--- |:---|:---|:---|:---|:---|:---|
-|sourceName| SB_FlagW|Image| sourceSettings|file: C:\\Users\\IEUser\\Documents\\IIFtoOBS\\flags\\ned_m.jpg|White| Image source will be set to the 3 char country code substituted with directory and jpg filename|
-|sourceName| SB_FlagB|Image| sourceSettings|file: C:\\Users\\IEUser\\Documents\\IIFtoOBS\\flags\\ned_m.jpg|Blue| Image source will be set to the 3 char country code substituted with directory and jpg filename|
+|sourceName| SB_FlagW|Image| sourceSettings|file: ..ned_m.jpg|White| Image source will be set to the 3 char country code substituted with directory and jpg filename|
+|sourceName| SB_FlagB|Image| sourceSettings|file: ..ned_m.jpg|Blue| Image source will be set to the 3 char country code substituted with directory and jpg filename|
 |item| SB_GoldenScore|Group| visible| True/False|Generic|Group is visible if Golden Score is active|
 |item| SB_IpponW|Group| visible| True/False|White|Group is visible if Ippon is active|
 |item| SB_IpponB|Group| visible| True/False|Blue|Group is visible if Ippon is active|
