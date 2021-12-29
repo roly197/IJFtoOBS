@@ -1,6 +1,8 @@
 # IJF2OBS
 Application API to connect IJF Judo scoreboard UDP stream to OBS server websockets
 
+1. [IJF2OBS installation](##IJF2OBS installation)
+
 ![alt text](https://github.com/roly197/IJFtoOBS/blob/main/images/IJF2OBS.jpg)
 
 ## IJF2OBS installation
