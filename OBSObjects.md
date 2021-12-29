@@ -15,13 +15,13 @@
 |source| SB_Time|Text (GDI+)| text| 0:00|Generic| Text will display the (remaining) match time|
 |source| SB_Winner|Text (GDI+)| text| Blue/White|Generic|Text will discplay the match winner:"Blue or White"| 
 |source| SB_CountryW|Text (GDI+)| text| NED|White|3 digit country abbreviation|
-|source| SB_WrlW|Text (GDI+)| text||White|Text displays World Rank of contender|
-|source| SB_FamilyNameW|Text (GDI+)| text||White|Text displays name of contender|
+|source| SB_WrlW|Text (GDI+)| text|<0..999>|White|Text displays World Rank of contender|
+|source| SB_FamilyNameW|Text (GDI+)| text|<a*..Z*>|White|Text displays name of contender|
 |source| SB_WazaAriW|Text (GDI+)| text| 0|White|Text/number to display WazaAri point|
 |source| SB_PinTimeW|Text (GDI+)| text| 00|White|Text to display the hold/lock timer|
 |source| SB_CountryB|Text (GDI+)| text| NED|Blue|3 digit country abbreviation||
-|source| SB_WrlB|Text (GDI+)| text|    |Blue|Text displays World Rank of contender|
-|source| SB_FamilyNameB|Text (GDI+)| text||Blue|Text displays name of contender|
+|source| SB_WrlB|Text (GDI+)| text|<0..999>|Blue|Text displays World Rank of contender|
+|source| SB_FamilyNameB|Text (GDI+)| text|<a*..Z*>|Blue|Text displays name of contender|
 |source| SB_WazaAriB|Text (GDI+)| text| 0|Blue|Text/number to display WazaAri point|
 |source| SB_PinTimeB|Text (GDI+)| text| 00|Blue|Text to display the hold/lock timer|
 |item| SB_ShidoW1|Color Source| visible| True/False|White|Visibility of Shido as OBS color Source = first yellow card|
