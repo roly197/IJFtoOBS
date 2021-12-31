@@ -35,20 +35,17 @@ To check a succesful installation:
 - This will output somthing like: 'Python 3.10.x' 
 
 #### Install the SimpleOBSWS Python Libraries
-The IJF2OBS software uses the non stanbdard Python library: simpleobsws. Can be found here: https://github.com/IRLToolkit/simpleobsws.
-To install this library: 
-- In a command windows (open a commad terminal by typing 'cmd' in the Windows search bar) type: **pip install simpleobsws**
-- This should return: 'Successfully installed simpleobsws.0.0.x websocket-10.1' (versions can differ).
+<<not needed anymore. library is included in the package>> 
 
 ### IJF2OBS interface installation
 Now that Python is set up you can download/install the IJF2OBS interface software:
 - With your preferred browser goto: https://github.com/roly197/IJFtoOBS 
 - Now select the **Code** button and in the dropdown select **Download Zip** 
 - The software downloads to your download folder. Navigate to that folder and unzip all files to your local filesystem (e.g. C:\Program Files)
-- If you want to use te country flag, you can also unzip the 'flags.zip' to a directory on your harddrive. The path to this directory needs to be configured in the **ijf2obs.py** file.
+- If you want to use te country flag, you can also unzip the 'flags.zip' to a directory on your harddrive. The path to this directory needs to be configured in the **ijf2obs<version>.py** file.
 
 #### Confuguration
-To configure the IJF2OBS software, select your favourite editor (can be Notepad) open the **ijf2obs.py* file in the installation directory and make the appropriate changes to the variables in the '''Setup variables''' section at the top of the file. 
+To configure the IJF2OBS software, select your favourite editor (can be Notepad) open the **ijf2obs<version>.py* file in the installation directory and make the appropriate changes to the variables in the '''Setup variables''' section at the top of the file. 
 
 ```
 udpPort = 5000                                                     #UDP listening port for IJF SB to connect to
@@ -63,7 +60,7 @@ flagsDirectory = 'C:\\Users\\IEUser\\Documents\\IIFtoOBS\\flags\\' #Local Direct
 ```
 
 ### Starting the IJF2OBS software
-To start the IJF2OBS inerface software simply click the **ijf2obs.py** file in the installation directory. Leave the terminal session running in the background.
+To start the IJF2OBS inerface software simply click the **ijf2obs<version>.py** file in the installation directory. Leave the terminal session running in the background.
 Only one instance of the interface can run on a single machine. 
 
 ** After startup the following OBS sources can be used: ** 
@@ -132,6 +129,6 @@ To configure the Websocket plugin:
 - Navigate to the new menu item: '**Tools**' -> '**WebSocket Server Settings**'
 - Enable Websockets server and configure the server port to **4444** (default)
 - Enable Authentication and configure the Password: **judo** (default)
-Other passwords and/or ports need to be configured in the **ijf2obs.py** file
+Other passwords and/or ports need to be configured in the **ijf2obs<version>.py** file
 
 Click 'Ok'.... done 
