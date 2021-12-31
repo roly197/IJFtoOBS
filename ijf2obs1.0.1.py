@@ -3,13 +3,14 @@ import asyncio
 import time
 import obsws 
 
-'''Setup variables'''
+'''---------------------------------Setup variables-------------------------'''
 udpPort = 5000                                                     #UDP listening port for IJF SB to connect to
 udpIp = ""                                                         #UDP IP for IJF SB to connect to
 
 wsPort = '4444'                                                    #Websocket port to connect to OBS Server
 wsHost = '127.0.0.1'                                               #Websocket IP to connect to OBS Server
 wsPass = 'judo'                                                    #Password to connect to OBS Server
+'''--------------------------------------------------------------------------'''
 
 defaultCountry = 'NED'                                             #Send default 3 digit country code when empty
 flagsDirectory = 'C:\\Users\\IEUser\\Documents\\IIFtoOBS\\flags\\' #Local Directory where all country flags are unzipped
