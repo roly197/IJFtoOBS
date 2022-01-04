@@ -78,7 +78,7 @@ Also have a look and import the example source collection in the OBS_Sources dir
 |SB_MatchType|Text (GDI+)| text| <<"Quarter Final">>|Generic|Text will display match type: "Elimination..to..Final"
 |SB_Time|Text (GDI+)| text| <<0:00..9:99>>|Generic| Text will display the (remaining) match time|
 |SB_Winner|Text (GDI+)| text| <<Blue/White>>|Generic|Text will display the match winner:"Blue or White"| 
-|:---|:---|:---|:---|:---|:---|
+||
 |SB_IpponW|Group| visible| True/False|White|Group is visible if Ippon is active|
 |SB_PinTimerW|Group| visible| True/False|White|Group is visible if pin/lock timer is active|
 |SB_CountryW|Text (GDI+)| text| <<NED..>>|White|3 digit country abbreviation|
@@ -90,7 +90,7 @@ Also have a look and import the example source collection in the OBS_Sources dir
 |SB_ShidoW1|Color Source| visible| True/False|White|Visibility of Shido as OBS color Source = first yellow card|
 |SB_ShidoW2|Color Source| visible| True/False|White|Visibility of 2nd Shido as OBS color Source = second yellow card|
 |SB_HansokumakeW|Color Source| visible| True/False|White|Visibility of 3rd Shido or Hansokumake as OBS color Source = red card (yellow cards will hide)|
-|:---|:---|:---|:---|:---|:---|
+||
 |SB_IpponB|Group| visible| True/False|Blue|Group is visible if Ippon is active|
 |SB_PinTimerB|Group| visible| True/False|Blue|Group is visible if pin/lock timer is active|
 |SB_CountryB|Text (GDI+)| text| <<NED..>>|Blue|3 digit country abbreviation|
