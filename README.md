@@ -18,7 +18,7 @@ Application API to connect IJF Judo scoreboard UDP stream to OBS server websocke
 ## Overview image
 ![alt text](https://github.com/roly197/IJFtoOBS/blob/main/images/IJF2OBS.jpg)
 
-NOTE: the OBS server machine with the IJF2OBS interface has ip address 192.168.2.3. This is mandatory for the IJF scroeboard software to connect.
+NOTE: All network computers have to be in the same IP range and switch network. IJF Scoreboard uses UDP broadcast to publish match data. 
 
 ## IJF2OBS installation
 The IJF2 OBS interface is build in Python for easy readability and support. First thing to to is download and install the Python interpreter:
