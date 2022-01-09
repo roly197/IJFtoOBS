@@ -9,7 +9,8 @@ new in release 1.0.4:
 - External library 'simpleobsws' is included in the package as 'obsws'. No manual pip install is needed anymore.    
 
 ## Todo:
-OBS scene template that supports max 10 mats. This includes individual scenes with individual objectes SB1_... till SB_... . 
+- OBS scene template that supports max 10 mats. This includes individual scenes with individual objectes SB1_... till SB_... . 
+- Change picture to reflect multiple IJF scoreboards and broadcast traffic
 
 ## Index
 - [IJF2OBS installation](#IJF2OBS-installation)
