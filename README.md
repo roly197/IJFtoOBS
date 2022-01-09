@@ -55,7 +55,7 @@ Now that Python is set up you can download/install the IJF2OBS interface softwar
 - The software downloads to your download folder. Navigate to that folder and unzip all files to your local filesystem (e.g. C:\Program Files)
 - If you want to use te country flag, you can also unzip the 'flags.zip' to a directory on the 'flags' sub-folder of the install directory.
 
-#### Confuguration
+#### Configuration
 From version 1.0.4 configuration changes should not be nessecary. Only edit when you know what you are doing.
 To configure the IJF2OBS software, select your favourite editor (can be Notepad) open the **ijf2obs(version).py* file in the installation directory. 
 
