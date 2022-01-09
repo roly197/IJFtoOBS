@@ -81,7 +81,7 @@ Only one instance of the interface can run on a single machine.
 ** After startup the following OBS sources can be used: ** 
 Also have a look and import the example source collection in the OBS_Sources directory. All sources are available in this example.
 
-|Source Name|OBS Source Type|Setting|Value <<"example">>|Category|Description|
+|Source Name #=0..9|OBS Source Type|Setting|Value <<"example">>|Category|Description|
 |:---|:---|:---|:---|:---|:---|
 |SB#_FlagW|Image| sourceSettings|file: ..ned_m.jpg|White| Image source will be set to the 3 char country code substituted with directory and jpg filename|
 |SB#_FlagB|Image| sourceSettings|file: ..ned_m.jpg|Blue| Image source will be set to the 3 char country code substituted with directory and jpg filename|
