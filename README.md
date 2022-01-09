@@ -69,7 +69,7 @@ wsHost = '127.0.0.1'                                               #Websocket IP
 wsPass = 'judo'                                                    #Password to connect to OBS Server
 
 defaultCountry = 'NED'                                             #Send default 3 digit country code when empty
-#flagsDirectory = '/Users/roly/Projects/IJFtoOBS/flags/'           #Local Directory where all country flags are unzipped
+#flagsDirectory = '/Users/user/Projects/IJFtoOBS/flags/'           #Local Directory where all country flags are unzipped
 flagsDirectory = os.getcwd()+'\\flags\\'                           #Automatically find the flags directory as a subdir to the executable location. Do not change!
 '''--------------------------------------------------------------------------'''
 ```
