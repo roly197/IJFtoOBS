@@ -58,15 +58,18 @@ Now that Python is set up you can download/install the IJF2OBS interface softwar
 To configure the IJF2OBS software, select your favourite editor (can be Notepad) open the **ijf2obs(version).py* file in the installation directory and make the appropriate changes to the variables in the '''Setup variables''' section at the top of the file. 
 
 ```
+'''---------------------------------Setup variables-------------------------'''
 udpPort = 5000                                                     #UDP listening port for IJF SB to connect to
-udpIp = ''                                                         #UDP IP for IJF SB to connect to
+udpIp = ""                                                         #UDP IP for IJF SB to connect to. Keep empty to listen to te bradcast address,
 
 wsPort = '4444'                                                    #Websocket port to connect to OBS Server
-wsHost = '127.0.0.1'                                             #Websocket IP to connect to OBS Server
+wsHost = '127.0.0.1'                                               #Websocket IP to connect to OBS Server
 wsPass = 'judo'                                                    #Password to connect to OBS Server
 
 defaultCountry = 'NED'                                             #Send default 3 digit country code when empty
-flagsDirectory = 'C:\\Users\\IEUser\\Documents\\IIFtoOBS\\flags\\' #Local Directory where all country flags are unzipped
+#flagsDirectory = '/Users/roly/Projects/IJFtoOBS/flags/'           #Local Directory where all country flags are unzipped
+flagsDirectory = os.getcwd()+'\\flags\\'                           #Automatically find the flags directory as a subdir to the executable location. Do not change!
+'''--------------------------------------------------------------------------'''
 ```
 
 ### Starting the IJF2OBS software
