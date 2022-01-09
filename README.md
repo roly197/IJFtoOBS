@@ -56,7 +56,8 @@ Now that Python is set up you can download/install the IJF2OBS interface softwar
 - If you want to use te country flag, you can also unzip the 'flags.zip' to a directory on the 'flags' sub-folder of the install directory.
 
 #### Confuguration
-To configure the IJF2OBS software, select your favourite editor (can be Notepad) open the **ijf2obs(version).py* file in the installation directory and make the appropriate changes to the variables in the '''Setup variables''' section at the top of the file. 
+From version 1.0.4 configuration changes should not be nessecary. Only edit when you know what you are doing.
+To configure the IJF2OBS software, select your favourite editor (can be Notepad) open the **ijf2obs(version).py* file in the installation directory. 
 
 ```
 '''---------------------------------Setup variables-------------------------'''
