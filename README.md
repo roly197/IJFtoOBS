@@ -1,6 +1,16 @@
 # IJF2OBS
 Application API to connect IJF Judo scoreboard UDP stream to OBS server websockets.
 
+## Release notes
+new in release 1.0.4:
+- Dynamic support for multiple mats 0..9 configured in IJF scoreboard configuration. Trailing identifier for the OBS objects has changed from SB_... to SB#.. where # is the configured mat number. Now listening to broadcast traffic from all IJF scoreboards.
+- Team score is now supported. Team score is passed in the 'GDI+ Text' object: SB#_TeamScoreW and SB#_TeamScoreB
+- Flags directory is now automatically configured to the python execution directory. Just unzip the 'flags.zip' to a sub-folder in the install directory.
+- External library 'simpleobsws' is included in the package as 'obsws'. No manual pip install is needed anymore.    
+
+## Todo:
+OBS scene template that supports max 10 mats. This includes individual scenes with individual objectes SB1_... till SB_... . 
+
 ## Index
 - [IJF2OBS installation](#IJF2OBS-installation)
   * [Python Windows installation](#Python-Windows-installation)
@@ -42,17 +52,17 @@ Now that Python is set up you can download/install the IJF2OBS interface softwar
 - With your preferred browser goto: https://github.com/roly197/IJFtoOBS 
 - Now select the **Code** button and in the dropdown select **Download Zip** 
 - The software downloads to your download folder. Navigate to that folder and unzip all files to your local filesystem (e.g. C:\Program Files)
-- If you want to use te country flag, you can also unzip the 'flags.zip' to a directory on your harddrive. The path to this directory needs to be configured in the **ijf2obs(version).py** file.
+- If you want to use te country flag, you can also unzip the 'flags.zip' to a directory on the 'flags' sub-folder of the install directory.
 
 #### Confuguration
 To configure the IJF2OBS software, select your favourite editor (can be Notepad) open the **ijf2obs(version).py* file in the installation directory and make the appropriate changes to the variables in the '''Setup variables''' section at the top of the file. 
 
 ```
 udpPort = 5000                                                     #UDP listening port for IJF SB to connect to
-udpIp = '192.168.2.3'                                              #UDP IP for IJF SB to connect to
+udpIp = ''                                                         #UDP IP for IJF SB to connect to
 
 wsPort = '4444'                                                    #Websocket port to connect to OBS Server
-wsHost = '192.168.2.3'                                             #Websocket IP to connect to OBS Server
+wsHost = '127.0.0.1'                                             #Websocket IP to connect to OBS Server
 wsPass = 'judo'                                                    #Password to connect to OBS Server
 
 defaultCountry = 'NED'                                             #Send default 3 digit country code when empty
@@ -105,7 +115,7 @@ Also have a look and import the example source collection in the OBS_Sources dir
 
 
 ### Stopping the IJF2OBS software
-In the terminal session simply type '**Crtl-Z**' and '**Enter**'
+In the terminal session simply type '**Ctrl-C**' and '**Enter**'
 
 ## OBS Windows installation
 If not installed already; Install the latest version of OBS server (version 27.1.3 at the time of writing) from here: https://obsproject.com/
