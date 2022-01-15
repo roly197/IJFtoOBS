@@ -83,8 +83,6 @@ Also have a look and import the example source collection in the OBS_Sources dir
 
 |Source Name # = 0..9|OBS Source Type|Setting|Value <<"example">>|Category|Description|
 |:---|:---|:---|:---|:---|:---|
-|SB#_FlagW|Image| sourceSettings|file: ..ned_m.jpg|White| Image source will be set to the 3 char country code substituted with directory and jpg filename|
-|SB#_FlagB|Image| sourceSettings|file: ..ned_m.jpg|Blue| Image source will be set to the 3 char country code substituted with directory and jpg filename|
 |SB#_GoldenScore|Group| render| True/False|Generic|Group is visible if Golden Score is active|
 |SB#_MatchStarted|Group| render| True/False|Generic|Group is visible if IJF scorebooard is active (not in setup mode)|
 |SB#_EventName|Text (GDI+)| text| <<scoreboard_testevent>>|Generic|Text that displayes IJF event name|
@@ -94,6 +92,7 @@ Also have a look and import the example source collection in the OBS_Sources dir
 |SB#_Time|Text (GDI+)| text| <<0:00..9:99>>|Generic| Text will display the (remaining) match time|
 |SB#_Winner|Text (GDI+)| text| <<Blue/White>>|Generic|Text will display the match winner:"Blue or White"| 
 ||
+|SB#_FlagW|Image| sourceSettings|file: ..ned_m.jpg|White| Image source will be set to the 3 char country code substituted with directory and jpg filename|
 |SB#_IpponW|Group| render| True/False|White|Group is visible if Ippon is active|
 |SB#_PinTimerW|Group| render| True/False|White|Group is visible if pin/lock timer is active|
 |SB#_CountryW|Text (GDI+)| text| <<NED..>>|White|3 digit country abbreviation|
@@ -106,6 +105,7 @@ Also have a look and import the example source collection in the OBS_Sources dir
 |SB#_ShidoW2|Color Source| render| True/False|White|Visibility of 2nd Shido as OBS color Source = second yellow card|
 |SB#_HansokumakeW|Color Source| render| True/False|White|Visibility of 3rd Shido or Hansokumake as OBS color Source = red card (yellow cards will hide)|
 ||
+|SB#_FlagB|Image| sourceSettings|file: ..ned_m.jpg|Blue| Image source will be set to the 3 char country code substituted with directory and jpg filename|
 |SB#_IpponB|Group| render| True/False|Blue|Group is visible if Ippon is active|
 |SB#_PinTimerB|Group| render| True/False|Blue|Group is visible if pin/lock timer is active|
 |SB#_CountryB|Text (GDI+)| text| <<NED..>>|Blue|3 digit country abbreviation|
