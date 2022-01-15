@@ -85,8 +85,8 @@ Also have a look and import the example source collection in the OBS_Sources dir
 |:---|:---|:---|:---|:---|:---|
 |SB#_FlagW|Image| sourceSettings|file: ..ned_m.jpg|White| Image source will be set to the 3 char country code substituted with directory and jpg filename|
 |SB#_FlagB|Image| sourceSettings|file: ..ned_m.jpg|Blue| Image source will be set to the 3 char country code substituted with directory and jpg filename|
-|SB#_GoldenScore|Group| visible| True/False|Generic|Group is visible if Golden Score is active|
-|SB#_MatchStarted|Group| visible| True/False|Generic|Group is visible if IJF scorebooard is active (not in setup mode)|
+|SB#_GoldenScore|Group| render| True/False|Generic|Group is visible if Golden Score is active|
+|SB#_MatchStarted|Group| render| True/False|Generic|Group is visible if IJF scorebooard is active (not in setup mode)|
 |SB#_EventName|Text (GDI+)| text| <<scoreboard_testevent>>|Generic|Text that displayes IJF event name|
 |SB#_Gender|Text (GDI+)| text| <<Men's/Woman's>>|Generic|Text will discplay "Men's" or " Woman's"|
 |SB#_Category|Text (GDI+)| text| <<-73..>> kg|Generic|Text will display the weight class + "kg"
@@ -94,29 +94,29 @@ Also have a look and import the example source collection in the OBS_Sources dir
 |SB#_Time|Text (GDI+)| text| <<0:00..9:99>>|Generic| Text will display the (remaining) match time|
 |SB#_Winner|Text (GDI+)| text| <<Blue/White>>|Generic|Text will display the match winner:"Blue or White"| 
 ||
-|SB#_IpponW|Group| visible| True/False|White|Group is visible if Ippon is active|
-|SB#_PinTimerW|Group| visible| True/False|White|Group is visible if pin/lock timer is active|
+|SB#_IpponW|Group| render| True/False|White|Group is visible if Ippon is active|
+|SB#_PinTimerW|Group| render| True/False|White|Group is visible if pin/lock timer is active|
 |SB#_CountryW|Text (GDI+)| text| <<NED..>>|White|3 digit country abbreviation|
 |SB#_WrlW|Text (GDI+)| text|<<0..999>>|White|Text displays World Rank of contender|
 |SB#_FamilyNameW|Text (GDI+)| text|<<a*..Z*>>|White|Text displays name of contender|
 |SB#_WazaAriW|Text (GDI+)| text| <<0-1>>|White|Text/number to display WazaAri point|
 |SB#_PinTimeW|Text (GDI+)| text| <<00-20>>|White|Text to display the hold/lock timer|
 |SB#_TeamScoreW|Text (GDI+)| text| <<0-9>>|White|Text to display the team score when in team mode|
-|SB#_ShidoW1|Color Source| visible| True/False|White|Visibility of Shido as OBS color Source = first yellow card|
-|SB#_ShidoW2|Color Source| visible| True/False|White|Visibility of 2nd Shido as OBS color Source = second yellow card|
-|SB#_HansokumakeW|Color Source| visible| True/False|White|Visibility of 3rd Shido or Hansokumake as OBS color Source = red card (yellow cards will hide)|
+|SB#_ShidoW1|Color Source| render| True/False|White|Visibility of Shido as OBS color Source = first yellow card|
+|SB#_ShidoW2|Color Source| render| True/False|White|Visibility of 2nd Shido as OBS color Source = second yellow card|
+|SB#_HansokumakeW|Color Source| render| True/False|White|Visibility of 3rd Shido or Hansokumake as OBS color Source = red card (yellow cards will hide)|
 ||
-|SB#_IpponB|Group| visible| True/False|Blue|Group is visible if Ippon is active|
-|SB#_PinTimerB|Group| visible| True/False|Blue|Group is visible if pin/lock timer is active|
+|SB#_IpponB|Group| render| True/False|Blue|Group is visible if Ippon is active|
+|SB#_PinTimerB|Group| render| True/False|Blue|Group is visible if pin/lock timer is active|
 |SB#_CountryB|Text (GDI+)| text| <<NED..>>|Blue|3 digit country abbreviation|
 |SB#_WrlB|Text (GDI+)| text|<<0..999>>|Blue|Text displays World Rank of contender|
 |SB#_FamilyNameB|Text (GDI+)| text|<<a*..Z*>>|Blue|Text displays name of contender|
 |SB#_WazaAriB|Text (GDI+)| text| <<0-1>>|Blue|Text/number to display WazaAri point|
 |SB#_PinTimeB|Text (GDI+)| text| <<00-20>>|Blue|Text to display the hold/lock timer|
 |SB#_TeamScoreB|Text (GDI+)| text| <<0-9>>|Blue|Text to display the team score when in team mode|
-|SB#_ShidoB1|Color Source| visible| True/False|Blue|Visibility of Shido as OBS color Source = first yellow card|
-|SB#_ShidoB2|Color Source| visible| True/False|Blue|Visibility of 2nd Shido as OBS color Source = second yellow card|
-|SB#_HansokumakeB|Color Source| visible| True/False|Blue|Visibility of 3rd Shido or Hansokumake as OBS color Source = red card (yellow cards will hide)|
+|SB#_ShidoB1|Color Source| render| True/False|Blue|Visibility of Shido as OBS color Source = first yellow card|
+|SB#_ShidoB2|Color Source| render| True/False|Blue|Visibility of 2nd Shido as OBS color Source = second yellow card|
+|SB#_HansokumakeB|Color Source| render| True/False|Blue|Visibility of 3rd Shido or Hansokumake as OBS color Source = red card (yellow cards will hide)|
 
 
 ### Stopping the IJF2OBS software
