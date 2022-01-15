@@ -152,4 +152,5 @@ Click 'Ok'.... done
 The IJF scoreboards need at least two configuration settings: 
 - Set 'Live data on' to start broadcasting the scoreboard information to the network
 - Set the 'mat number'. This number will corespond to the mat number picked up from the network and send to OBS sources with the prefix **SB#_xxxxxxxx**, where # is the mat number.
-![alt text](https://github.com/roly197/IJFtoOBS/blob/main/images/IJF configuration.jpg)
+
+![alt text](https://github.com/roly197/IJFtoOBS/blob/main/images/IJFconfiguration.jpg)
