@@ -5,8 +5,7 @@ Application API to connect IJF Judo scoreboard UDP stream to OBS server websocke
 new in release 1.0.8:
 - Dynamic support for multiple mats 0..9 configured in IJF scoreboard configuration. Trailing identifier for the OBS objects has changed from SB_... to SB#.. where # is the configured mat number. Now listening to broadcast traffic from all IJF scoreboards.
 - Team score is now supported. Team score is passed in the 'GDI+ Text' object: SB#_TeamScoreW and SB#_TeamScoreB
-- Flags directory is now automatically configured to the python execution directory. Just unzip the 'flags.zip' to a sub-folder in the install directory.
-- External library 'simpleobsws' is included in the package as 'obsws'. No manual pip install is needed anymore.    
+- Flags directory is now automatically configured to the python execution directory. Just unzip the 'flags.zip' to a sub-folder in the install directory. 
 
 ## Index
 - [IJF2OBS installation](#IJF2OBS-installation)
@@ -34,15 +33,22 @@ The IJF2 OBS interface is build in Python for easy readability and support. Firs
 In your preferred webbrowser navigate to the Python download link: https://www.python.org/downloads/ and download-and-run the latest Python version installer (version 3.10.1 at the time of writing).
 Select:
 - 'Install launcher for all users (recommended')'  and,
-- 'Add Python 3.10 to PATH' 
+- During the installation enablele:'Add Python 3.10 to PATH'
 Accept all defaults in the installation wizard and finish the installation.
 To check a succesful installation: 
 - open a commad terminal by typing 'cmd' in the Windows search bar
 - In the command terminal type '**python --version**' 
 - This will output somthing like: 'Python 3.10.x' 
 
-#### Install the SimpleOBSWS Python Libraries
-Not needed anymore. library is included in the package
+### Install IJF2OBS dependencies
+The IJF2OBS has a dependency on the following external modules:
+- simpleobsws
+- websocket
+
+Install these modules by opening a 'CMD prompt' and type: 
+```
+pip install simpleobsws
+```
 
 ### IJF2OBS interface installation
 Now that Python is set up you can download/install the IJF2OBS interface software:
