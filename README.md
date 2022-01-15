@@ -2,15 +2,11 @@
 Application API to connect IJF Judo scoreboard UDP stream to OBS server websockets.
 
 ## Release notes
-new in release 1.0.4:
+new in release 1.0.8:
 - Dynamic support for multiple mats 0..9 configured in IJF scoreboard configuration. Trailing identifier for the OBS objects has changed from SB_... to SB#.. where # is the configured mat number. Now listening to broadcast traffic from all IJF scoreboards.
 - Team score is now supported. Team score is passed in the 'GDI+ Text' object: SB#_TeamScoreW and SB#_TeamScoreB
 - Flags directory is now automatically configured to the python execution directory. Just unzip the 'flags.zip' to a sub-folder in the install directory.
 - External library 'simpleobsws' is included in the package as 'obsws'. No manual pip install is needed anymore.    
-
-## Todo:
-- OBS scene template that supports max 10 mats. This includes individual scenes with individual objectes SB1_... till SB_... . 
-- Change picture to reflect multiple IJF scoreboards and broadcast traffic
 
 ## Index
 - [IJF2OBS installation](#IJF2OBS-installation)
@@ -129,7 +125,7 @@ The Windows installation link will download the OBS Server installation package.
 ### Example Scene Collection
 In the folder OBS_Sources you will find example scoreboard Scene and source. 
 - Open OBS server, navigate to : '**Scene Collection**' -> '**Import**' 
-- In the newly opened window select the '**Collection Path**' '**...**'  field, navigate to the file '**..\OBS_Sources\OPS_IJF_ScoreBoard.json**' 
+- In the newly opened window select the '**Collection Path**' '**...**'  field, navigate to the file '**..\OBS_Sources\OPS_IJF_ScoreBoard....json**' 
 - now Click Import. The scoreboard overlay will load.
 
 ### OBS websocket plugin
@@ -151,3 +147,9 @@ To configure the Websocket plugin:
 Other passwords and/or ports need to be configured in the **ijf2obs(version).py** file
 
 Click 'Ok'.... done 
+
+## IJF scoreboard configuration
+The IJF scoreboards need at least two configuration settings: 
+- Set 'Live data on' to start broadcasting the scoreboard information to the network
+- Set the 'mat number'. This number will corespond to the mat number picked up from the network and send to OBS sources with the prefix **SB#_xxxxxxxx**, where # is the mat number.
+![alt text](https://github.com/roly197/IJFtoOBS/blob/main/images/IJF configuration.jpg)
