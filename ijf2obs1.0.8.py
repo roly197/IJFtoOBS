@@ -3,7 +3,7 @@ import socket
 import asyncio
 import time
 import os
-import obsws 
+import simpleobsws 
 
 '''---------------------------------Setup variables-------------------------'''
 udpPort = 5000                                                     #UDP listening port for IJF SB to connect to
