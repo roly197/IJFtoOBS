@@ -3,7 +3,7 @@ import socket
 import asyncio
 import time
 import os
-import simpleobsws 
+import obsws 
 
 '''---------------------------------Setup variables-------------------------'''
 udpPort = 5000                                                     #UDP listening port for IJF SB to connect to
@@ -23,7 +23,7 @@ sock.bind((udpIp, udpPort))
 
 '''setup the Websocket to the OBS server running on this machine. port=4444, password=judo'''
 loop = asyncio.get_event_loop()
-ws = simpleobsws.obsws(host=wsHost, port=wsPort, password=wsPass, loop=loop) # Every possible argument has been passed, but none are required. See lib code for defaults.
+ws = obsws.obsws(host=wsHost, port=wsPort, password=wsPass, loop=loop) # Every possible argument has been passed, but none are required. See lib code for defaults.
 
 ts = time.time()
 scoreBoardInstances = {}                                                              #Create a dictionary with instances of scoreboards. UNique id is the mat # (0..9)
