@@ -85,7 +85,7 @@ Also have a look and import the example source collection in the OBS_Sources dir
 
 |Source Name # = 0..9|OBS Source Type|Setting|Value <<"example">>|Category|Description|
 |:---|:---|:---|:---|:---|:---|
-|SB#_GoldenScore|Group| render| True/False|Generic|Group is visible if Golden Score is active|
+|SB#_GoldenScore|Text (GDI+)| render| True/False|Generic|Group is visible if Golden Score is active|
 |SB#_MatchStarted|Group| render| True/False|Generic|Group is visible if IJF scorebooard is active (not in setup mode)|
 |SB#_EventName|Text (GDI+)| text| <<scoreboard_testevent>>|Generic|Text that displayes IJF event name|
 |SB#_Gender|Text (GDI+)| text| <<Men's/Woman's>>|Generic|Text will discplay "Men's" or " Woman's"|
@@ -95,8 +95,8 @@ Also have a look and import the example source collection in the OBS_Sources dir
 |SB#_Winner|Text (GDI+)| text| <<Blue/White>>|Generic|Text will display the match winner:"Blue or White"| 
 ||
 |SB#_FlagW|Image| sourceSettings|file: ..ned_m.jpg|White| Image source will be set to the 3 char country code substituted with directory and jpg filename|
-|SB#_IpponW|Group| render| True/False|White|Group is visible if Ippon is active|
-|SB#_PinTimerW|Group| render| True/False|White|Group is visible if pin/lock timer is active|
+|SB#_IpponW|Text (GDI+)| render| True/False|White|Group is visible if Ippon is active|
+|SB#_PinTimerW|Text (GDI+)| render| True/False|White|Group is visible if pin/lock timer is active|
 |SB#_CountryW|Text (GDI+)| text| <<NED..>>|White|3 digit country abbreviation|
 |SB#_WrlW|Text (GDI+)| text|<<0..999>>|White|Text displays World Rank of contender|
 |SB#_FamilyNameW|Text (GDI+)| text|<<a*..Z*>>|White|Text displays name of contender|
@@ -108,8 +108,8 @@ Also have a look and import the example source collection in the OBS_Sources dir
 |SB#_HansokumakeW|Color Source| render| True/False|White|Visibility of 3rd Shido or Hansokumake as OBS color Source = red card (yellow cards will hide)|
 ||
 |SB#_FlagB|Image| sourceSettings|file: ..ned_m.jpg|Blue| Image source will be set to the 3 char country code substituted with directory and jpg filename|
-|SB#_IpponB|Group| render| True/False|Blue|Group is visible if Ippon is active|
-|SB#_PinTimerB|Group| render| True/False|Blue|Group is visible if pin/lock timer is active|
+|SB#_IpponB|Text (GDI+)| render| True/False|Blue|Group is visible if Ippon is active|
+|SB#_PinTimerB|Text (GDI+)| render| True/False|Blue|Group is visible if pin/lock timer is active|
 |SB#_CountryB|Text (GDI+)| text| <<NED..>>|Blue|3 digit country abbreviation|
 |SB#_WrlB|Text (GDI+)| text|<<0..999>>|Blue|Text displays World Rank of contender|
 |SB#_FamilyNameB|Text (GDI+)| text|<<a*..Z*>>|Blue|Text displays name of contender|
