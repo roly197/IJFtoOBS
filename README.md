@@ -2,7 +2,7 @@
 Application API to connect IJF Judo scoreboard UDP stream to OBS server websockets.
 
 ## Release notes
-new in release 1.0.8:
+new in release 1.1.0:
 - Dynamic support for multiple mats 0..9 configured in IJF scoreboard configuration. Trailing identifier for the OBS objects has changed from SB_... to SB#.. where # is the configured mat number. Now listening to broadcast traffic from all IJF scoreboards.
 - Team score is now supported. Team score is passed in the 'GDI+ Text' object: SB#_TeamScoreW and SB#_TeamScoreB
 - Flags directory is now automatically configured to the python execution directory. Just unzip the 'flags.zip' to a sub-folder in the install directory. 
@@ -22,7 +22,7 @@ new in release 1.0.8:
     + [Configure the plugin](#Configure-the-plugin)
 
 ## Overview image
-![alt text](https://github.com/roly197/IJFtoOBS/blob/main/images/IJF2OBS1.0.x.jpg)
+![alt text](https://github.com/roly197/IJFtoOBS/blob/main/images/IJF2OBS1.x.x.jpg)
 
 NOTE: All network computers have to be in the same IP range and switch network. IJF Scoreboard uses UDP broadcast to publish match data. 
 
