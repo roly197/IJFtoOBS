@@ -2,6 +2,7 @@
 import socket
 import asyncio
 import time
+import os
 import lib.obsws  as simpleobsws
 
 '''---------------------------------Setup variables-------------------------'''
