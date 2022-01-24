@@ -43,7 +43,7 @@ To check a succesful installation:
 ### Install IJF2OBS dependencies
 The IJF2OBS has a dependency on the following external modules:
 - simpleobsws
-- websocket
+- websockets
 
 Install these modules by opening a 'CMD prompt' and type: 
 ```
