@@ -22,7 +22,7 @@ new in release 1.1.0:
     + [Configure the plugin](#Configure-the-plugin)
 
 ## Overview image
-![alt text](https://github.com/roly197/IJFtoOBS/blob/main/images/IJF2OBS1.x.x.jpg)
+![alt text](https://github.com/roly197/IJFtoOBS/blob/main/images/IJF2OBS1.0.x.jpg)
 
 NOTE: All network computers have to be in the same IP range and switch network. IJF Scoreboard uses UDP broadcast to publish match data. 
 
